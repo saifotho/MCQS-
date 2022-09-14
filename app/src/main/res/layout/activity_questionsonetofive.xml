@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/saif"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".questionsonetofive">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="QUIZ TEST"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Q1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Q1 :- Android is __?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-6dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1a"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="An operating system"
+                android:textColor="@android:color/holo_orange_light"
+
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1b"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:text="A web browser"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1c"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="A web server"
+                android:textColor="@android:color/holo_orange_light"
+
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1d"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:text="None of above"
+                android:textSize="14dp"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Q2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:text="Q2 :- For which of the following Android is mainly
+                               developed "
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-6dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="14dp"
+                android:text="Servers"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2b"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="Laptops"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2c"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Desktops"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2d"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="Mobile services"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Q3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Q3 :- Android is based on which language"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-6dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ3a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:textSize="14dp"
+                android:text="Java"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ3b"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="C++"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ3c"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="C"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ3d"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="none of the above"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Q4"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Q4 :- APK is stands for...?"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-6dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ4a"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="Android Phone Kit"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ4b"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:text="Android Page Kit"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ4c"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Android Package Kit"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ4d"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:text="None of the above"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Q5"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Q5 :- If Ali _______ the answer, He will tell you."
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-6dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ5a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:textSize="14dp"
+                android:text="Knows"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ5b"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="Know"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ5c"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Known"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ5d"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="14dp"
+                android:text="Has Known"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Next"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
